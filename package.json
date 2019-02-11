@@ -1,0 +1,30 @@
+{
+  "name": "hello-vault",
+  "version": "1.0.0",
+  "description": "hashicorp vault useage demo",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development node entry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zekelion/hello-vault.git"
+  },
+  "keywords": [
+    "vault",
+    "node.js"
+  ],
+  "author": "eriksen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zekelion/hello-vault/issues"
+  },
+  "homepage": "https://github.com/Zekelion/hello-vault#readme",
+  "dependencies": {
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "node-vault": "^0.9.5",
+    "superagent": "^4.1.0"
+  }
+}

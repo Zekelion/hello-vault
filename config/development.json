@@ -1,0 +1,8 @@
+{
+  "foo": "default",
+  "vault": {
+    "addr": "http://127.0.0.1:8200",
+    "roleID": "f39adbc5-3f9e-dfec-3e23-9562dced5c2f",
+    "secretID": "0b8985d5-dc99-2e83-c331-5d678d8b592f"
+  }
+}
