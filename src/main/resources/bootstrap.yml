@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: default
+  application:
+    name: hello-vault
+  cloud:
+    vault:
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: APPROLE
+      app-role:
+        role-id: f39adbc5-3f9e-dfec-3e23-9562dced5c2f
+        secret-id: a49d149c-5b24-b0f6-58f4-0d865d2b083c
+        role: my-role
+        app-role-path: approle
+      generic:
+        enabled: true
+        backend: secret
+        profile-separator: '/'
+        default-context: hello
+        application-name: hello
