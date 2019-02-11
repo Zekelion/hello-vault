@@ -28,3 +28,9 @@ npm i
 
 npm start
 ```
+
+**Request for foo**
+
+```shell
+curl -X GET http://localhost:3000
+```
